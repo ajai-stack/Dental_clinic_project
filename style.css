@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+} 
+
+.container-fluid{
+    border-bottom: 1px solid rgb(172, 166, 166);
+    box-shadow:7px 8px rgb(217, 222, 231);
+
+}
+
+
+.header a{ 
+    font-size: 25px;
+}
+.header a:hover{
+    color: turquoise;
+}
+.header a img{
+   margin-bottom: 10px;
+
+}
+ .bar {
+       margin-left: 240px;
+     
+}
+.bar a{
+    margin-right: 30px;
+    font-weight: 400;
+}   
+.bar a:hover{
+    color: turquoise;
+}
+.make{
+    margin-right: 30px;
+  
+}
+.make a{
+   padding: 10px;
+   border: 1px solid rgb(19, 230, 230);
+   background-color: aqua;
+   border-radius: 10px;
+   box-shadow: 1px 1px ;
+   color: rgb(50, 54, 58);
+   
+}
+.make a:hover{
+background-color: rgb(21, 22, 22);
+color: rgb(242, 246, 248);
+}
+
+.navbar-toggler{
+    background-color: rgb(139, 139, 235);
+ 
+}
+
+    
+
+
+
+/*home*/
+
+.home{
+    background-image: url(./images/pexels-andrea-piacquadio-3779705.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container h2{
+    margin-right: 600px;
+      font-size: x-large;
+      font-weight: 500;
+      
+    
+}
+.container p{
+    margin-right: 600px;
+    font-size: 17px;
+    
+}
+.container .make{
+    margin-right: 600px;
+}
+
+/*---About--*/
+
+.about{
+    margin-top: 200px;
+    background-color: rgb(245, 245, 245);
+    
+}
+.about .content img{
+    box-shadow: 0 0.5rem 2rem rgb(172, 166, 166);
+    border-radius: 10px;
+}
+.about .row{
+    min-height: 50vh;
+}
+.about .content span{
+    font-size: 2rem;
+    color: rgb(89, 89, 252);
+}
+
+.about .content h3{
+        font-size: 2rem;
+        color:black;
+        margin-top: 1rem;
+}
+
+.about .content p{
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    color: rgb(87, 83, 83);
+    text-align: justify;
+}
+
+/*---service---*/
+
+.service{
+    background-color:rgb(252, 249, 249);
+    margin-top: 200px;
+}
+.service h1{
+    text-align: center;
+}
+
+.service .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 2rem;
+    margin-top: 50px;
+}
+.service .box-container .box{
+    text-align: center;
+    padding: 1rem;
+    background-color:rgb(245, 248, 250);
+    box-shadow: 0 0.5rem 1rem rgb(172, 166, 166) ;
+}
+.service .box-container .box img{
+    margin: 1rem 0;
+    height: 4rem;
+}
+.service .box-container .box h3{
+    font-size: 2rem;
+    padding: 1rem 0;
+    color: black;
+
+}
+.service .box-container .box p{
+    font-size: 2rem;
+    color: aliceblue;
+    line-height: 2;
+}
+
+/*---process---*/
+
+.process{
+    margin-top: 200px;
+
+}
+.heading{
+    text-align: center;
+}
+
+.process .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:2rem;
+    margin-top: 50px;
+ }
+ 
+ .process .box-container .box{
+    background-color: rgb(15, 160, 165);
+    padding:2rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: 0 0.5rem 1rem rgb(172, 166, 166);
+ }
+ 
+ .process .box-container .box img{
+    height: 15rem;
+    margin:1rem 0;
+ }
+ 
+ .process .box-container .box h3{
+    font-size: 2rem;
+    color:black;
+    margin:1.5rem 0;
+ }
+ 
+ .process .box-container .box em{
+    font-size: 2rem;
+    color:black;
+    line-height: 2;
+    text-align: center;
+ }
+ 
+ /*---review--*/
+
+.reviews{
+    margin-top: 200px;
+}
+.reviews .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap:2rem;
+    margin-top: 50px;
+ }
+ 
+ .reviews .box-container .box{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgb(172, 166, 166);
+    padding:2rem;
+ }
+ 
+ .reviews .box-container .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+ }
+ 
+ .reviews .box-container .box small{
+    padding:2rem 0;
+    line-height: 2;
+    font-size: 1rem;
+    color: black;
+    margin-top: 10px;
+ }
+ 
+ .reviews .box-container .box .stars{
+    padding:.5rem 1.5rem;
+    border-radius: .5rem;
+    background-color: rgb(252, 251, 246);
+    margin-bottom: 2rem;
+    display: inline-block;
+ }
+ 
+ .reviews .box-container .box .stars i{
+    font-size: 1rem;
+    color: rgb(243, 221, 19);
+ }
+ 
+ .reviews .box-container .box h3{
+    font-size: 1.5rem;
+    color: black;
+ }
+ 
+ .reviews .box-container .box span{
+    color:black;
+    font-size: 1rem;
+ }
+
+ /*---contact----*/
+
+.head{
+    color: black;
+    text-align: center;
+
+}
+.contact{
+    margin-top: 200px;
+}
+ .contact form{
+    border-radius: .5rem;
+    background-color: rgb(211, 228, 223);
+    padding:2rem;
+    margin:0 auto;
+    max-width: 43rem;
+    margin-top: 50px;
+ }
+ 
+ 
+ .contact form .box{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    background-color: rgb(255, 252, 252);
+    padding:1.2rem 1.4rem;
+    font-size: 1.5rem;
+    color:black;
+    text-transform: none;
+ }
+ 
+ .contact form span{
+    font-size: 1.7rem;
+    color:rgb(94, 161, 248);
+ }
+
+ .link-btn{
+    color: white;
+    background-color: rgb(59, 59, 196);
+    width: 20rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    border-radius: 5px
+ }
+ 
+ /*---footer--*/
+
+ .footer{
+    background-color: rgb(238, 231, 231);
+    margin-top: 200px;
+ }
+ 
+ .footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap:3.5rem;
+ }
+ 
+ .footer .box-container .box{
+    text-align: center;
+ }
+ 
+ .footer .box-container .box i{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: rgb(67, 67, 75);
+    color:rgb(248, 247, 247);
+    margin-top: 20px;
+    
+ }
+ .footer .box-container .box i:hover{
+    cursor: pointer;
+    background-color: rgb(6, 6, 235);
+ }
+ 
+ .footer .box-container .box h3{
+    font-size: 1.5rem;
+    margin:2rem 0;
+    color: rgb(1, 28, 68);
+    margin-top: 50px;
+ }
+ 
+ .footer .box-container .box p{
+    font-size: 1.5rem;
+    color:lightblue;
+    text-transform: none;
+    
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: rgb(15, 14, 14);
+ }
+ 
+ .footer .credit span{
+    color: rgb(15, 110, 173);
+    
+ }
+
+ @media (max-width:991px) {
+    .container h2{
+        width: 200px;
+        font-size: 20px;
+        color: rgb(1, 34, 71);
+        
+    }
+    .container p{
+        width: 200px;
+        font-size: 14px;
+    }
+
+    .make {
+        margin-left: 20px;
+    }
+    
+ }
+ 
+
+
+
+ /*style for animation*/
+ #one,#two,#three,.heading,#trim,#dom,#term,#match,#batch,#earn,#warn,#corn
+ {
+    opacity: 0;
+ }
+#one.animate__animated,#two.animate__animated,#three.animate__animated,
+.heading.animate__animated,#trim.animate__animated,#dom.animate__animated,
+#term.animate__animated,#match.animate__animated,#batch.animate__animated,
+#earn.animate__animated,#warn.animate__animated,#corn.animate__animated
+{
+    opacity: 1;
+
+ }
+ #earn.animate__animated{
+    animation-delay: 1s;
+ }
+ #warn.animate__animated{
+    animation-delay: 1.5s;
+ }
+ #corn.animate__animated{
+    animation-delay: 1s;
+ }
